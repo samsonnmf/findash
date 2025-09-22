@@ -1,4 +1,4 @@
-import PyPDF2
+import pypdf as PyPDF2
 import pdfplumber
 import openai
 from anthropic import Anthropic
