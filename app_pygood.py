@@ -46,7 +46,7 @@ def main():
     )
     
     # API Key check
-    has_openai = bool(os.getenv('OPENAI_API_KEY')
+    has_openai = bool(os.getenv('OPENAI_API_KEY'))
     has_anthropic = bool(os.getenv('ANTHROPIC_API_KEY'))
     
     if not has_openai and not has_anthropic:
