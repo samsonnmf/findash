@@ -9,10 +9,10 @@ except ImportError:
     pass  # dotenv not available, use Streamlit secrets instead
 
 # Import our custom modules
-from database import FinanceDatabase
-from pdf_processor import PDFProcessor
-from stock_tracker import AIStockTracker
-from dashboard import FinanceDashboard
+from database_py import FinanceDatabase
+from pdfprocessorgood import PDFProcessor
+from stock_tracker_py import AIStockTracker
+from dashboard_py import FinanceDashboard
 
 # Load environment variables
 load_dotenv()
