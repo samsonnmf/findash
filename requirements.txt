@@ -1,3 +1,10 @@
 streamlit
 pandas
 plotly
+pypdf
+pdfplumber
+openai
+anthropic
+yfinance
+python-dotenv
+requests
