@@ -12,7 +12,7 @@ load_dotenv()
 
 class PDFProcessor:
     def __init__(self):
-        self.openai_api_key = os.getenv('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')
+        self.openai_api_key = os.getenv('OPENAI_API_KEY')
         self.anthropic_api_key = os.getenv('ANTHROPIC_API_KEY')
         
         if self.openai_api_key:
