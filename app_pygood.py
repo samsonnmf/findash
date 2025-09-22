@@ -46,7 +46,7 @@ def main():
     )
     
     # API Key check
-    has_openai = bool(os.getenv('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'))
+    has_openai = bool(os.getenv('OPENAI_API_KEY')
     has_anthropic = bool(os.getenv('ANTHROPIC_API_KEY'))
     
     if not has_openai and not has_anthropic:
