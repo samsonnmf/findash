@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import os
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not available, use Streamlit secrets instead
 
 # Import our custom modules
 from database import FinanceDatabase
