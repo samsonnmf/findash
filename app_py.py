@@ -6,7 +6,9 @@ try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
-    pass  # dotenv not available, use Streamlit secrets instead
+    print("python-dotenv not installed, skipping .env file loading")
+except Exception as e:
+    print(f"Error loading .env file: {e}")
 
 # Import our custom modules
 #from database_py import FinanceDatabase
