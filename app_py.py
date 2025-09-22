@@ -10,7 +10,7 @@ except ImportError:
 
 # Import our custom modules
 from database_py import FinanceDatabase
-from pdfprocessorgood import PDFProcessor
+from pdf_processor.py import PDFProcessor
 from stock_tracker_py import AIStockTracker
 from dashboard_py import FinanceDashboard
 
