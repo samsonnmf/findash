@@ -11,10 +11,10 @@ except Exception as e:
     print(f"Error loading .env file: {e}")
 
 # Import our custom modules
-#from database_py import FinanceDatabase
-#from pdf_processor.py import PDFProcessor
-#from stock_tracker_py import AIStockTracker
-#from dashboard_py import FinanceDashboard
+from database_py import FinanceDatabase
+from pdf_processor.py import PDFProcessor
+from stock_tracker_py import AIStockTracker
+from dashboard_py import FinanceDashboard
 
 # Load environment variables
 load_dotenv()
